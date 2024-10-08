@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    width: 80%;
+}
+
+.slogan {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+/* App Showcase Section */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.app-showcase {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 122px;
+}
+
+.app {
+    padding: 20px;
+    text-align: left;
+}
+
+.app-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.app-details h2 {
+    margin: 20px 0 10px 0;
+    text-align: left;
+}
+
+.app-details p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.download-button:hover {
+    background: #1199cc;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px 0;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.7em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+}
